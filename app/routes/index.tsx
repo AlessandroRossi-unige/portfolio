@@ -42,16 +42,23 @@ export default function Index() {
         <h1 className="text-4xl mb-2">
           My main project
         </h1>
-        <p className="p-4">
-          The Skinet project is a project
-          involving a fake ecommerce website for
-          winter sports supplies, the website
-          consist of three sister projects, each
-          one is the fullstack website made with
-          different tech stacks. All the projects
-          are made with speed, scalability and
-          good programming practices in mind
-        </p>
+        <div className="flex gap-3 px-48">
+          <p className="p-4">
+            The Skinet project is a project
+            involving a fake ecommerce website for
+            winter sports supplies, the website
+            consist of three sister projects, each
+            one is the fullstack website made with
+            different tech stacks. All the
+            projects are made with speed,
+            scalability and good programming
+            practices in mind
+          </p>
+          <img
+            src="Skinet.png"
+            className="w-[40rem] h-[30rem]"
+          ></img>
+        </div>
         <div className="flex gap-6">
           <CardComponent
             title="Skinet Sharp"
