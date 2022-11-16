@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: Founders Grotesk, Arial Black, sans-serif;
+    }
+}
+
+#scroller::after {
+    content: 'Fullstack';
+    animation: animate 16s infinite;
+}
+
+@keyframes animate {
+    0% {
+        content: 'Fullstack';
+        color: lime;
+    }
+
+    16.6% {
+        content: '.NET';
+        color: red;
+    }
+
+    32.3% {
+        content: 'Rust';
+        color: orange;
+    }
+
+    50% {
+        content: 'Typescript';
+        color: blue;
+    }
+
+    66.5% {
+        content: 'Web';
+        color: purple;
+    }
+
+    83.5% {
+        content: 'Game';
+        color: yellow;
+    }
+
+    100% {
+        content: 'Fullstack';
+        color: lime;
+    }
+}
