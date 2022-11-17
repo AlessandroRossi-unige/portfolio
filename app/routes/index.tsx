@@ -38,22 +38,46 @@ export default function Index() {
           </p>
         </div>
       </div>
-      <div className="flex flex-col justify-center items-center space-y-7 px-40">
-        <h1 className="text-4xl mb-2">
-          My main project
+      <div className="flex flex-col justify-center items-center space-y-7 px-40 pb-10">
+        <h1 className="text-4xl mb-6 font-bold">
+          SKINET
         </h1>
         <div className="flex gap-3 px-48">
-          <p className="p-4">
-            The Skinet project is a project
-            involving a fake ecommerce website for
-            winter sports supplies, the website
-            consist of three sister projects, each
-            one is the fullstack website made with
-            different tech stacks. All the
-            projects are made with speed,
-            scalability and good programming
-            practices in mind
-          </p>
+          <div className="flex flex-col gap-2 p-4">
+            <p>
+              The Skinet project is a mega project
+              involving a fake ecommerce website
+              for winter sports supplies, the
+              website is replicated in three
+              sister projects, each one is the
+              fullstack website made with
+              different tech stack. All the
+              projects are made with the same core
+              principals in mind: speed,
+              scalability and good programming
+              practices.
+            </p>
+            <p>
+              Each project consistes of an API
+              that handles the business logic. To
+              manage data each project consists of
+              two databases, one to handle
+              persistent data and a caching
+              database in memory. The frontend of
+              the application is managed by SSR or
+              a SPA to ensure a fast and
+              responsive experience, both on pc
+              and on mobile. All of the projects
+              are production ready and they
+              support user accounts with secure
+              authentication and paymets using
+              stripe.
+            </p>
+            <p>
+              But enough talking, let's look at
+              the examples...
+            </p>
+          </div>
           <img
             src="Skinet.png"
             className="w-[40rem] h-[30rem]"
@@ -62,15 +86,21 @@ export default function Index() {
         <div className="flex gap-6">
           <CardComponent
             title="Skinet Sharp"
-            body="Enim eiusmod pariatur et id consectetur consequat laborum quis voluptate est duis sit. Aliquip sit est mollit commodo id quis laboris eiusmod incididunt eiusmod laborum commodo fugiat exercitation. Proident enim sit irure elit irure do."
+            body="The oldest version of SKinet, this website was made with Angular 12 as a fronted and ASP.NET C# as a backend. To manage storage a postgresql db is managed using EF Core for storing persisting data. On top of this a Redis db is used for caching and for short term storage."
+            link="portfolio/skinet"
+            demo="#"
           />
           <CardComponent
             title="Skinet Rusty"
             body="Id eiusmod enim ut eiusmod enim consectetur magna non nulla est magna. Eiusmod cillum deserunt ea incididunt pariatur nulla. Et ullamco eiusmod fugiat pariatur ea velit voluptate sit et ea incididunt. Ut irure consequat aliquip nisi commodo. Non minim pariatur commodo amet aliqua eiusmod Lorem sunt. Cupidatat ipsum tempor adipisicing sit elit."
+            link="#"
+            demo="#"
           />
           <CardComponent
             title="Skinet Node"
             body="Deserunt tempor deserunt aute ad deserunt labore duis magna irure magna proident do minim. Pariatur laborum duis dolore in laboris consectetur est irure eu commodo Lorem aute ullamco. Ullamco elit ad pariatur aute veniam. Anim anim amet occaecat mollit deserunt esse tempor cillum anim elit ea aliqua proident culpa. Laborum incididunt duis in ipsum incididunt aute incididunt consectetur deserunt eiusmod."
+            link="#"
+            demo="#"
           />
         </div>
       </div>
@@ -81,18 +111,22 @@ export default function Index() {
 export function CardComponent(values: {
   title: string;
   body: string;
+  link: string;
+  demo: string;
 }) {
   return (
-    <div className="p-6 max-w-sm bg-gray rounded-lg border border-gray-200 shadow-md">
-      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">
-        {values.title}
-      </h5>
-      <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-        {values.body}
-      </p>
+    <div className="flex flex-col justify-between p-6 max-w-sm bg-gray rounded-lg border border-gray-200 shadow-md">
+      <div>
+        <h5 className="mb-2 text-2xl font-bold text-center tracking-tight">
+          {values.title}
+        </h5>
+        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+          {values.body}
+        </p>
+      </div>
       <div className="flex gap-4 justify-start">
         <Link
-          to="#"
+          to={values.link}
           className="inline-flex items-center py-2 px-3 text-sm font-bold text-center text-light_blue bg-transparent rounded-lg border border-light_blue hover:bg-light_blue hover:text-white"
         >
           Learn more
@@ -111,7 +145,7 @@ export function CardComponent(values: {
           </svg>
         </Link>
         <Link
-          to="#"
+          to={values.demo}
           className="inline-flex items-center py-2 px-3 text-sm font-bold text-center text-lime bg-transparent rounded-lg border border-lime hover:bg-lime hover:text-white"
         >
           Demo
