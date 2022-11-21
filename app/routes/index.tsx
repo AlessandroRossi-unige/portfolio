@@ -6,7 +6,7 @@ export default function Index() {
       <div className="flex justify-center items-center h-screen gap-24 px-60">
         <div className="flex flex-col justify-center items-center space-y-7">
           <img
-            src="avatar-placeholder.png"
+            src="/avatar-placeholder.png"
             className="w-60 h-60 rounded-full mx-28"
           ></img>
           <h1>Alessandro Rossi</h1>
@@ -79,7 +79,7 @@ export default function Index() {
             </p>
           </div>
           <img
-            src="Skinet.png"
+            src="/Skinet.png"
             className="w-[40rem] h-[30rem]"
           ></img>
         </div>

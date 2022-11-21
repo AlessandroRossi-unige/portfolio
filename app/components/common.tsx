@@ -2,7 +2,7 @@ import { Link } from "@remix-run/react";
 
 export function NavbarComponent() {
   return (
-    <nav className="bg-gray px-2 sm:px-4 py-6 rounded ">
+    <nav className="sticky top-0 bg-gray px-2 sm:px-4 py-6 rounded ">
       <div className="container flex flex-wrap justify-center items-center gap-9 mx-auto">
         <Link
           className="text-xl font-bold"
