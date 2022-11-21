@@ -2,7 +2,7 @@ import { Link } from "@remix-run/react";
 
 export default function Skinet() {
   return (
-    <div className="flex flex-col justify-center gap-2 px-52 py-6">
+    <div className="flex flex-col justify-center gap-2 px-80 py-6">
       <h1 className="text-center font-medium leading-tight text-5xl mt-0 mb-4">
         SKINET SHARP
       </h1>
@@ -13,13 +13,14 @@ export default function Skinet() {
           here
         </Link>
       </p>
-      <h2 className="font-medium leading-tight text-3xl my-4">
-        Technology stack
-      </h2>
       <img
         src="/tech-stack.png"
-        className="w-[40rem] h-[30rem]"
+        className="w-[40rem] h-[30rem] self-center"
       ></img>
+      <h2 className="font-medium leading-tight text-3xl my-4">
+        Backend
+      </h2>
+
       <p>
         The backend is the core of the logic and
         data of this application, the database I
@@ -58,8 +59,62 @@ export default function Skinet() {
         for unit testing (WIP) as test involving
         database calls can be mocked and not rely
         on actually making database calls, which
-        makes them faster and self sustaining.
+        makes them faster and completely isolated.
       </p>
+      <p>
+        Persistent entities are stored in a
+        postgresql DB, this is good but for some
+        entities it is not ideal. We want
+        non-authenticated users should be able to
+        browse a few items and save them in the
+        basket for later user, this is great for
+        the user experience but can be quite a
+        waste of memory as this could lead to
+        thousands of unauthenticated users having
+        a basket. For this an instance of a Redis
+        DB is required, Redis unlike postgres
+        stores information in memory making it
+        very responsive.
+      </p>
+      <h2 className="font-medium leading-tight text-3xl my-4">
+        Frontend
+      </h2>
+      <p>
+        The frontend of the application is made
+        using Angular 12 which is a solid
+        framework for really large projects,
+        altough it is not my preferred choice over
+        React. For a much better developer
+        experience I use Typescript instead of
+        Javascript in all of my projects. For a
+        modern look I chose to use Bootstrap 5, a
+        classic choice.
+      </p>
+      <img
+        src="/tech-stack.png"
+        className="w-[40rem] h-[30rem] self-center"
+      ></img>
+      <p>
+        The shop page is the core of the website,
+        it is the main way products are displayed
+        to the end users. The page and the API
+        support pagination, which mean only a few
+        products at a time need to be loaded,
+        therefore making queries to hundred of
+        products a lot faster, users can switch
+        between different pages at the bottom.
+        Users can filter products based on the
+        name and the categories, they can also
+        sort them. All of these buttons modify the
+        REST API query that is sent to the
+        Backend. One of the main pillars of this
+        entire project is the ability to swap
+        frontends and backends around, for example
+        this Angular frontend is 100% compatible
+        with any other Skinet backend made in Rust
+        or with Node.
+      </p>
+      <p>Users can </p>
     </div>
   );
 }
