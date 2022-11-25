@@ -9,9 +9,21 @@ export default function Skinet() {
       <p>
         Skinet is a simple ecommerce website. You
         can try out a live demo{" "}
-        <Link className="text-red" to={"#"}>
+        <Link
+          className="text-light_blue"
+          to={"#"}
+        >
           here
-        </Link>
+        </Link>{" "}
+      </p>
+      <p>
+        If you just wanna skip to the source code:{" "}
+        <a
+          className="text-light_blue"
+          href="https://github.com/alesrossi/skinet"
+        >
+          here
+        </a>
       </p>
       <img
         src="/tech-stack.png"
@@ -114,7 +126,29 @@ export default function Skinet() {
         with any other Skinet backend made in Rust
         or with Node.
       </p>
-      <p>Users can </p>
+      <p>
+        Users can browse items and click on each
+        card to either read the details or to add
+        the item to their basket. This basket is
+        saved for every user, even if they are not
+        logged in, the basket id is saved in local
+        storage. For fast fetching this basket is
+        retrieved from a Redis instance. To
+        process with the purchased users will be
+        redirected to a reserved page and will
+        have to authenticate. Authentication is
+        done using JsonWebTokens which are a fast
+        jet secure alternative to sessions.
+      </p>
+      <p>
+        Payments are managed using Stripe's API.
+        To test a payment in the demo app you can
+        use the 4242 4242 4242 4242 card number
+        alongside any expiration and CVC.
+      </p>
+      <h2 className="font-medium leading-tight text-3xl my-4">
+        Deployment
+      </h2>
     </div>
   );
 }
