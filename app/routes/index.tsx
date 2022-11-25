@@ -88,7 +88,7 @@ export default function Index() {
             title="Skinet Sharp"
             body="The oldest version of SKinet, this website was made with Angular 12 as a fronted and ASP.NET C# as a backend. To manage storage a postgresql db is managed using EF Core for storing persisting data. On top of this a Redis db is used for caching and for short term storage."
             link="portfolio/skinet-sharp"
-            demo="#"
+            demo="https://skinet-sharp.alessandrorossi.tech/"
           />
           <CardComponent
             title="Skinet Rusty"
@@ -144,8 +144,8 @@ export function CardComponent(values: {
             ></path>
           </svg>
         </Link>
-        <Link
-          to={values.demo}
+        <a
+          href={values.demo}
           className="inline-flex items-center py-2 px-3 text-sm font-bold text-center text-lime bg-transparent rounded-lg border border-lime hover:bg-lime hover:text-white"
         >
           Demo
@@ -162,7 +162,7 @@ export function CardComponent(values: {
               clip-rule="evenodd"
             ></path>
           </svg>
-        </Link>
+        </a>
       </div>
     </div>
   );

@@ -9,12 +9,12 @@ export default function Skinet() {
       <p>
         Skinet is a simple ecommerce website. You
         can try out a live demo{" "}
-        <Link
+        <a
           className="text-light_blue"
-          to={"#"}
+          href="https://skinet-sharp.alessandrorossi.tech/"
         >
           here
-        </Link>{" "}
+        </a>{" "}
       </p>
       <p>
         If you just wanna skip to the source code:{" "}
