@@ -5,7 +5,18 @@
 @layer base {
     html {
         font-family: Arial Black, sans-serif;
+        scroll-snap-type: mandatory;
+        scroll-snap-points-y: repeat(100vh);
+        scroll-snap-type: y mandatory;
     }
+}
+
+.section1 h1 {
+    color: black;
+}
+
+.section1 p {
+    color: black;
 }
 
 #scroller::after {

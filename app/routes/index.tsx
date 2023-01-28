@@ -2,88 +2,96 @@ import { Link } from "@remix-run/react";
 
 export default function Index() {
   return (
-    <div className="flex flex-col gap-40">
-      <div className="flex justify-center items-center h-screen gap-24 px-60">
-        <div className="flex flex-col justify-center items-center space-y-7">
-          <img
-            src="/avatar-placeholder.png"
-            className="w-60 h-60 rounded-full mx-28"
-          ></img>
-          <h1>Alessandro Rossi</h1>
-          <h1>
-            <span id="scroller"></span> developer
-          </h1>
-        </div>
-        <div className="flex flex-col justify-center items-center space-y-7 px-40">
-          <h1 className="text-4xl mb-2">
-            About me...
-          </h1>
-          <p>
-            Amet cupidatat ipsum ipsum eiusmod
-            mollit. Ut nostrud ut sint nisi et
-            amet exercitation consequat qui
-            proident laboris reprehend erit. Duis
-            ipsum in labore amet incididunt
-            laboris ipsum nulla. Veniam eu eu
-            velit esse adipisicing consectetur.
-          </p>
-          <p>
-            Amet cupidatat ipsum ipsum eiusmod
-            mollit. Ut nostrud ut sint nisi et
-            amet exercitation consequat qui
-            proident laboris reprehenderit. Duis
-            ipsum in labore amet incididunt
-            laboris ipsum nulla. Veniam eu eu
-            velit esse adipisicing consectetur.
-          </p>
-        </div>
-      </div>
-      <div className="flex flex-col justify-center items-center space-y-7 px-40 pb-10">
-        <h1 className="text-4xl mb-6 font-bold">
-          SKINET
-        </h1>
-        <div className="flex gap-3 px-48">
-          <div className="flex flex-col gap-2 p-4">
+    <div>
+      <section className="border-b border-white p-4 h-100v snap-start text-center bg-brown-350 relative">
+        <div className="section1 flex justify-center items-center h-screen gap-24 px-60">
+          <div className="flex flex-col justify-center items-center space-y-7">
+            <img
+              src="/avatar-placeholder.png"
+              className="w-60 h-60 rounded-full mx-28"
+            ></img>
+            <h1>Alessandro Rossi</h1>
+            <h1>
+              <span id="scroller"></span>{" "}
+              developer
+            </h1>
+          </div>
+          <div className="flex flex-col justify-center items-center space-y-7 px-40">
+            <h1 className="text-4xl mb-2">
+              About me...
+            </h1>
             <p>
-              The Skinet project is a mega project
-              involving a fake ecommerce website
-              for winter sports supplies, the
-              website is replicated in three
-              sister projects, each one is the
-              fullstack website made with
-              different tech stack. All the
-              projects are made with the same core
-              principals in mind: speed,
-              scalability and good programming
-              practices.
+              Amet cupidatat ipsum ipsum eiusmod
+              mollit. Ut nostrud ut sint nisi et
+              amet exercitation consequat qui
+              proident laboris reprehend erit.
+              Duis ipsum in labore amet incididunt
+              laboris ipsum nulla. Veniam eu eu
+              velit esse adipisicing consectetur.
             </p>
             <p>
-              Each project consistes of an API
-              that handles the business logic. To
-              manage data each project consists of
-              two databases, one to handle
-              persistent data and a caching
-              database in memory. The frontend of
-              the application is managed by SSR or
-              a SPA to ensure a fast and
-              responsive experience, both on pc
-              and on mobile. All of the projects
-              are production ready and they
-              support user accounts with secure
-              authentication and paymets using
-              stripe.
-            </p>
-            <p>
-              But enough talking, let's look at
-              the examples...
+              Amet cupidatat ipsum ipsum eiusmod
+              mollit. Ut nostrud ut sint nisi et
+              amet exercitation consequat qui
+              proident laboris reprehenderit. Duis
+              ipsum in labore amet incididunt
+              laboris ipsum nulla. Veniam eu eu
+              velit esse adipisicing consectetur.
             </p>
           </div>
-          <img
-            src="/Skinet.png"
-            className="w-[40rem] h-[30rem]"
-          ></img>
         </div>
-        <div className="flex gap-6">
+      </section>
+      <section className="section1 border-b border-white bg-green-350 p-4 h-100v snap-start text-center relative">
+        <div className="flex flex-col justify-center items-center space-y-7 px-40 h-screen">
+          <h1 className="text-4xl mb-6 font-bold">
+            SKINET
+          </h1>
+          <div className="flex gap-3 px-48">
+            <div className="flex flex-col gap-2 p-4">
+              <p>
+                The Skinet project is a mega
+                project involving a fake ecommerce
+                website for winter sports
+                supplies, the website is
+                replicated in three sister
+                projects, each one is the
+                fullstack website made with
+                different tech stack. All the
+                projects are made with the same
+                core principals in mind: speed,
+                scalability and good programming
+                practices.
+              </p>
+              <p>
+                Each project consistes of an API
+                that handles the business logic.
+                To manage data each project
+                consists of two databases, one to
+                handle persistent data and a
+                caching database in memory. The
+                frontend of the application is
+                managed by SSR or a SPA to ensure
+                a fast and responsive experience,
+                both on pc and on mobile. All of
+                the projects are production ready
+                and they support user accounts
+                with secure authentication and
+                paymets using stripe.
+              </p>
+              <p>
+                But enough talking, let's look at
+                the examples...
+              </p>
+            </div>
+            <img
+              src="/Skinet.png"
+              className="w-[40rem] h-[30rem]"
+            ></img>
+          </div>
+        </div>
+      </section>
+      <section className="border-b border-white bg-brown-550 p-4 h-100v snap-start text-center relative align-middle justify-center">
+        <div className="flex justify-center items-center h-screen px-40 gap-6">
           <CardComponent
             title="Skinet Sharp"
             body="The oldest version of SKinet, this website was made with Angular 12 as a fronted and ASP.NET C# as a backend. To manage storage a postgresql db is managed using EF Core for storing persisting data. On top of this a Redis db is used for caching and for short term storage."
@@ -103,7 +111,7 @@ export default function Index() {
             demo="#"
           />
         </div>
-      </div>
+      </section>
     </div>
   );
 }
@@ -115,7 +123,7 @@ export function CardComponent(values: {
   demo: string;
 }) {
   return (
-    <div className="flex flex-col justify-between p-6 max-w-sm bg-gray rounded-lg border border-gray-200 shadow-md">
+    <div className="flex flex-col justify-between p-6 h-[32rem] max-w-sm bg-gray-550  rounded-lg border border-gray-200 shadow-md hover:shadow-2xl hover:scale-105 hover:font-bold ">
       <div>
         <h5 className="mb-2 text-2xl font-bold text-center tracking-tight">
           {values.title}
@@ -127,7 +135,7 @@ export function CardComponent(values: {
       <div className="flex gap-4 justify-start">
         <Link
           to={values.link}
-          className="inline-flex items-center py-2 px-3 text-sm font-bold text-center text-light_blue bg-transparent rounded-lg border border-light_blue hover:bg-light_blue hover:text-white"
+          className="inline-flex items-center py-2 px-3 text-sm font-bold text-center text-blue-150 bg-transparent rounded-lg border border-blue-150 hover:bg-blue-150 hover:text-white"
         >
           Learn more
           <svg
@@ -146,7 +154,7 @@ export function CardComponent(values: {
         </Link>
         <a
           href={values.demo}
-          className="inline-flex items-center py-2 px-3 text-sm font-bold text-center text-lime bg-transparent rounded-lg border border-lime hover:bg-lime hover:text-white"
+          className="inline-flex items-center py-2 px-3 text-sm font-bold text-center text-green-250 bg-transparent rounded-lg border border-green-250 hover:bg-green-250 hover:text-white"
         >
           Demo
           <svg

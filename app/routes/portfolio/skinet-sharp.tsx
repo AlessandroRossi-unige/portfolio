@@ -10,7 +10,7 @@ export default function Skinet() {
         Skinet is a simple ecommerce website. You
         can try out a live demo{" "}
         <a
-          className="text-light_blue"
+          className="text-blue-150"
           href="https://skinet-sharp.alessandrorossi.tech/"
         >
           here
@@ -19,7 +19,7 @@ export default function Skinet() {
       <p>
         If you just wanna skip to the source code:{" "}
         <a
-          className="text-light_blue"
+          className="text-blue-150"
           href="https://github.com/alesrossi/skinet"
         >
           here
@@ -149,6 +149,7 @@ export default function Skinet() {
       <h2 className="font-medium leading-tight text-3xl my-4">
         Deployment
       </h2>
+      <p>Today </p>
     </div>
   );
 }
