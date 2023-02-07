@@ -31,7 +31,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body className="h-screen bg-gray-950 text-white">
+      <body className="bg-gray-950 text-white">
         <NavbarComponent />
         <Outlet />
         <FooterComponent />
