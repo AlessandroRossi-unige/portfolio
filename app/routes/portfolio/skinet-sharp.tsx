@@ -149,7 +149,17 @@ export default function Skinet() {
       <h2 className="font-medium leading-tight text-3xl my-4">
         Deployment
       </h2>
-      <p>Today </p>
+      <p>
+        To learn more about my production
+        infrastructure check out my{" "}
+        <a
+          className="text-blue-150 hover:text-blue-500 hover:underline"
+          href="#"
+        >
+          Infrastructure
+        </a>{" "}
+        page
+      </p>
     </div>
   );
 }

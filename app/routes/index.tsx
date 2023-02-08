@@ -3,7 +3,7 @@ import { Link } from "@remix-run/react";
 export default function Index() {
   return (
     <div>
-      <section className="border-b border-white p-4 h-100v snap-start text-center bg-brown-350 relative">
+      <section className="border-b border-white p-4 h-100v snap-start text-center bg-blue-150 relative">
         <div
           className="flex flex-col h-screen content-center justify-between"
           id="first"
@@ -64,7 +64,7 @@ export default function Index() {
           <ArrowComponent />
         </div>
       </section>
-      <section className="border-b border-white bg-green-350 p-4 text-black h-100v snap-start relative">
+      <section className="border-b border-white bg-yellow-350 p-4 text-black h-100v snap-start relative">
         <div
           className="flex flex-col h-screen content-center justify-between"
           id="second"
@@ -152,7 +152,7 @@ export default function Index() {
           <ArrowComponent />
         </div>
       </section>
-      <section className="border-b border-white bg-brown-550 p-4 h-100v snap-start text-center relative align-middle justify-center">
+      <section className="border-b border-white bg-orange-550 p-4 h-100v snap-start text-center relative align-middle justify-center">
         <div
           className="flex justify-center items-center h-screen px-40 gap-6"
           id="third"

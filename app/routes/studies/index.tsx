@@ -3,8 +3,11 @@ export default function PortfolioComponent() {
     <div className="mx-80 my-5 border-2 border-white">
       <div className="flex flex-col p-10 px-18 gap-3">
         <h1 className="text-center text-3xl pb-6">
-          Studies
+          Bachelor's degree in Computer Science
         </h1>
+        <h2 className="text-center text-xl pb-6 text-gray-500 -mt-5">
+          (9/2018 - 09/2022)
+        </h2>
         <p>
           I pursued my studies starting in 2018,
           where I was introduced to computer
