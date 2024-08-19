@@ -14,7 +14,7 @@ import {
   NavbarComponent,
   FooterComponent,
 } from "./components/common";
-import stylesheet from "~/tailwind.css";
+import stylesheet from "~/tailwind.css?url";
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: stylesheet },

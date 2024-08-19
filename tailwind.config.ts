@@ -1,17 +1,13 @@
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["./app/**/*.{js,ts,jsx,tsx}"],
-  plugins: [require("flowbite/plugin")],
+import type { Config } from "tailwindcss";
+import flowbite from "flowbite-react/tailwind";
+
+export default {
+  content: [
+    "./app/**/{**,.client,.server}/**/*.{js,jsx,ts,tsx}",
+    flowbite.content(),
+  ],
+  plugins: [flowbite.plugin()],
   theme: {
-    // colors: {
-    //   deep_black: "#121212",
-    //   white: "#ffffff",
-    //   gray: "#292929",
-    //   blue: "#244e82",
-    //   red: "#f44250",
-    //   light_blue: "#3defe9",
-    //   lime: "#6bd968",
-    // },
     extend: {
       colors: {
         gray: {
@@ -62,4 +58,4 @@ module.exports = {
       },
     },
   },
-};
+} satisfies Config;
