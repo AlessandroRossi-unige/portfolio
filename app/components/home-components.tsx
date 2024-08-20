@@ -12,7 +12,7 @@ export function CardComponent(values: {
         <h5 className="mb-2 text-2xl font-bold text-center tracking-tight">
           {values.title}
         </h5>
-        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+        <p className="mb-3 font-normal text-gray-250 dark:text-gray-400">
           {values.body}
         </p>
       </div>

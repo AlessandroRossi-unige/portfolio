@@ -14,10 +14,10 @@ export default function PortfolioComponent() {
         tags="Rust, React, Remix, Postgres"
       />
       <CardComponent
-        title="Skinet Node"
-        link="#"
-        introduction="Lorem excepteur et laboris deserunt eiusmod fugiat est nisi amet mollit. Ut quis ex esse irure nisi est nostrud reprehenderit. Elit voluptate ex dolore laborum tempor reprehenderit pariatur nostrud laboris excepteur. Sunt commodo labore eu culpa non excepteur tempor. Commodo aliqua occaecat pariatur pariatur labore velit mollit. Dolor incididunt mollit nisi officia pariatur dolore aliquip ut veniam labore ad cupidatat excepteur quis."
-        tags="Typescript, NodeJS, Express, Prisma. MongoDB"
+        title="Infrastructure"
+        link="/portfolio/infrastructure"
+        introduction="All of my projects including this very wbsite are hosted in a remote linux machine. To easily mantain and upgrade them, all of my projects are conteinarised into docker containers and composed when necessary. I aim to eventually automize this process "
+        tags="Docker, Docker Compose, Linux"
       />
     </section>
   );
@@ -34,7 +34,7 @@ export function CardComponent(values: {
       href={values.link}
       className="relative block overflow-hidden  rounded-lg border border-gray-100 p-8  w-2/6  hover:shadow-2xl hover:scale-105 hover:font-bold"
     >
-      <div className="flex-1 flex-col content-between">
+      <div className="flex-1 flex-col justify-between">
         <span className="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-red-600 via-orange-400 to-yellow-300"></span>
 
         <div className="sm:flex">

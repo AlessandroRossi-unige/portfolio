@@ -3,9 +3,9 @@ import { Link } from "@remix-run/react";
 export function NavbarComponent() {
   return (
     <nav className="sticky top-0 bg-gray-550 px-2 sm:px-4 py-6 rounded z-10">
-      <div className="container flex flex-wrap justify-center items-center gap-9 mx-auto">
+      <div className="container flex flex-wrap justify-center  items-center gap-9 mx-auto">
         <Link
-          className="text-xl font-bold"
+          className="text-xl   font-bold"
           to="/"
         >
           Home
