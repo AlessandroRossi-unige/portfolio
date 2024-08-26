@@ -1,44 +1,30 @@
-export default function Skinet() {
+export default function InfrastructureComponent() {
   return (
     <div className="flex flex-col justify-center gap-2 px-80 py-6">
       <h1 className="text-center font-medium leading-tight text-5xl mt-0 mb-4">
-        SKINET SHARP
+        More than just coding
       </h1>
-      <p>
-        Skinet is a simple ecommerce website. You
-        can try out a live demo{" "}
-        <a
-          className="text-blue-150 hover:text-blue-500 hover:underline"
-          href="https://skinet-sharp.alessandrorossi.tech/"
-        >
-          here
-        </a>{" "}
-      </p>
-      <p>
-        If you just wanna skip to the source code:{" "}
-        <a
-          className="text-blue-150 hover:text-blue-500 hover:underline"
-          href="https://github.com/alesrossi/skinet"
-        >
-          here
-        </a>
-      </p>
       <img
-        src="/tech-stack.png"
+        src="/infrastructure.png"
         className="w-[40rem] h-[30rem] self-center"
       ></img>
       <h2 className="font-medium leading-tight text-3xl my-4">
-        Backend
+        My work environment
       </h2>
 
       <p>
-        The backend is the core of the logic and
-        data of this application, the database I
-        chose for Skinet is postgres, which is my
-        preferred SQL DB. To manage the DB the
-        .NET framework provides Entity Framework
-        which I consider one of the best ORM
-        available.
+        When I work on my personal projects I like
+        to use a Linux environment, this is not
+        only better (in my opinion) but also
+        convenient as I am able to replicate the
+        same environment as my remote host. While
+        eventually I plan to setup my own physical
+        server, for the moment I deploy all my
+        stuff inside a Digital ocean container. I
+        use this container as a remote server
+        where each project is assigned its own
+        port and subdomain. Each project is run
+        inside a docker container
       </p>
       <p>
         To respect the separation of concernes the
@@ -48,46 +34,8 @@ export default function Skinet() {
         patterns, most important the Unit of work
         pattern and the repository pattern.
       </p>
-      <p>
-        Thanks to EF Core I am able to swap
-        databases while only changing a few lines
-        of code, with the Unit of work pattern I
-        am able to swap away EF Core altogether
-        and replace my data layer with any other
-        options from files to raw SQL queries and
-        even swap to a NOSQL alternative by only
-        changing the Infrastructure project. The
-        repository pattern means that each Entity
-        can be treated like a generic, which means
-        that every CRUD operation works the same.
-        This way I am able to add and modify new
-        eentities without worrying about the
-        underlyign CRUD logic. The biggest
-        advantege of this pattern is the ability
-        to test each component by its own without
-        unexpected side effects, this is crucial
-        for unit testing (WIP) as test involving
-        database calls can be mocked and not rely
-        on actually making database calls, which
-        makes them faster and completely isolated.
-      </p>
-      <p>
-        Persistent entities are stored in a
-        postgresql DB, this is good but for some
-        entities it is not ideal. We want
-        non-authenticated users should be able to
-        browse a few items and save them in the
-        basket for later user, this is great for
-        the user experience but can be quite a
-        waste of memory as this could lead to
-        thousands of unauthenticated users having
-        a basket. For this an instance of a Redis
-        DB is required, Redis unlike postgres
-        stores information in memory making it
-        very responsive.
-      </p>
       <h2 className="font-medium leading-tight text-3xl my-4">
-        Frontend
+        Docker
       </h2>
       <p>
         The frontend of the application is made
@@ -152,7 +100,7 @@ export default function Skinet() {
         infrastructure check out my{" "}
         <a
           className="text-blue-150 hover:text-blue-500 hover:underline"
-          href="#"
+          href="/portfolio/infrastructure"
         >
           Infrastructure
         </a>{" "}

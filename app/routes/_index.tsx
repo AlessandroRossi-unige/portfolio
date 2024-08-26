@@ -214,7 +214,7 @@ export default function Index() {
                 more here are the details{" "}
                 <a
                   className="text-blue-150 hover:text-blue-500 hover:underline"
-                  href="https://skinet-sharp.alessandrorossi.tech/"
+                  href="/portfolio/infrastructure"
                 >
                   here
                 </a>{" "}
@@ -245,7 +245,7 @@ export default function Index() {
                 code{" "}
                 <a
                   className="text-blue-150 hover:text-blue-500 hover:underline"
-                  href="https://skinet-sharp.alessandrorossi.tech/"
+                  href="/portfolio/infrastructure"
                 >
                   here
                 </a>{" "}
