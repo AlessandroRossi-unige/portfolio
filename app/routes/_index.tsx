@@ -157,7 +157,7 @@ export default function Index() {
           <ArrowComponent />
         </div>
       </section>
-      <section className="border-b border-white bg-orange-550 p-4 h-100v snap-start text-center relative align-middle justify-center">
+      <section className="border-b border-white bg-yellow-350 p-4 h-100v snap-start text-center relative align-middle justify-center">
         <div
           className="flex flex-col h-screen content-center justify-between"
           id="second"
@@ -175,13 +175,13 @@ export default function Index() {
             />
             <CardComponent
               title="Skinet Rusty"
-              body="Id eiusmod enim ut eiusmod enim consectetur magna non nulla est magna. Eiusmod cillum deserunt ea incididunt pariatur nulla. Et ullamco eiusmod fugiat pariatur ea velit voluptate sit et ea incididunt. Ut irure consequat aliquip nisi commodo. Non minim pariatur commodo amet aliqua eiusmod Lorem sunt. Cupidatat ipsum tempor adipisicing sit elit."
+              body="A new version of Skiner where I experiment with more niche techonologies. This website was made using rust and actix-web as the backend. Remix as the frontend and as usual the databases are an instance of postgresql and Redis db for caching and short term storage."
               link="#"
               demo="#"
             />
             <CardComponent
               title="Skinet Node"
-              body="Deserunt tempor deserunt aute ad deserunt labore duis magna irure magna proident do minim. Pariatur laborum duis dolore in laboris consectetur est irure eu commodo Lorem aute ullamco. Ullamco elit ad pariatur aute veniam. Anim anim amet occaecat mollit deserunt esse tempor cillum anim elit ea aliqua proident culpa. Laborum incididunt duis in ipsum incididunt aute incididunt consectetur deserunt eiusmod."
+              body="Still WIP, I plan to remake Skinet using Node"
               link="#"
               demo="#"
             />
@@ -190,7 +190,7 @@ export default function Index() {
           <ArrowComponent />
         </div>
       </section>
-      <section className="border-b border-white bg-orange-550 p-4 h-100v snap-start text-center relative align-middle justify-center">
+      <section className="border-b border-white bg-yellow-350 p-4 h-100v snap-start text-center  text-black relative align-middle justify-center">
         <div
           className="flex flex-col justify-center items-center h-screen px-40 gap-6"
           id="third"
@@ -213,7 +213,7 @@ export default function Index() {
                 more nuance so if you want to know
                 more here are the details{" "}
                 <a
-                  className="text-blue-150 hover:text-blue-500 hover:underline"
+                  className="text-red-150 font-bold hover:text-blue-500 hover:underline"
                   href="/portfolio/infrastructure"
                 >
                   here
@@ -227,7 +227,7 @@ export default function Index() {
           </div>
         </div>
       </section>
-      <section className="border-b border-white bg-orange-550 p-4 h-100v snap-start text-center relative align-middle justify-center">
+      <section className="border-b border-white bg-yellow-350 p-4 h-100v snap-start text-center text-black relative align-middle justify-center">
         <div
           className="flex flex-col justify-center items-center h-screen px-40 gap-6"
           id="third"
@@ -244,7 +244,7 @@ export default function Index() {
                 you can find the complete source
                 code{" "}
                 <a
-                  className="text-blue-150 hover:text-blue-500 hover:underline"
+                  className="text-red-150 font-bold hover:text-blue-500 hover:underline"
                   href="/portfolio/infrastructure"
                 >
                   here
@@ -255,6 +255,33 @@ export default function Index() {
               src="/Skinet.png"
               className="w-[40rem] h-[30rem]"
             ></img>
+          </div>
+        </div>
+      </section>
+      <section className="border-b border-white bg-yellow-350 p-4 h-100v snap-start text-center text-black relative align-middle justify-center">
+        <div
+          className="flex flex-col justify-center items-center h-screen px-40 gap-6"
+          id="third"
+        >
+          <h1 className="text-4xl mb-6 font-bold">
+            Do you want to know more? Check out my github page!
+          </h1>
+          <div className="flex flex-col gap-3 px-48">
+            <div className="flex flex-col gap-2 p-4">
+              <p>
+                From websites to games and even an app, you can find all my projects throught the years
+                
+              </p>
+              <a
+                  className="text-red-150 font-bold hover:text-blue-500 hover:underline"
+                  href="https://github.com/alesrossi"
+                >
+                  HERE
+                </a>{" "}
+            </div>
+            <a
+              href="https://github.com/alesrossi"
+            ><img src="/Skinet.png" className="w-[40rem] h-[30rem]"></img></a>
           </div>
         </div>
       </section>
