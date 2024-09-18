@@ -149,7 +149,7 @@ export default function Index() {
                 </p>
               </div>
               <img
-                src="/Skinet.png"
+                src="/skinet.png"
                 className="w-[40rem] h-[30rem]"
               ></img>
             </div>
@@ -206,10 +206,9 @@ export default function Index() {
                 this website and my various
                 projects inside of a digitalocean
                 droplet. All of my projects are
-                containerised in docker
-                containers, they are then deployed
-                inside of the remote linux vm
-                where I host them. There is a lot
+                containerised in dockerS and deployed to a
+                 remote linux vm
+                where I host them. There is a lots
                 more nuance so if you want to know
                 more here are the details{" "}
                 <a
@@ -252,8 +251,8 @@ export default function Index() {
               </p>
             </div>
             <img
-              src="/Skinet.png"
-              className="w-[40rem] h-[30rem]"
+              src="/portfolio.png"
+              className="w-[50rem] h-[30rem]"
             ></img>
           </div>
         </div>
@@ -281,7 +280,7 @@ export default function Index() {
             </div>
             <a
               href="https://github.com/alesrossi"
-            ><img src="/Skinet.png" className="w-[40rem] h-[30rem]"></img></a>
+            ><img src="/github.png" className="w-[60rem] h-[30rem]"></img></a>
           </div>
         </div>
       </section>

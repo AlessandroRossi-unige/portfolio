@@ -34,10 +34,9 @@ export default function Skinet() {
       <p>
         The backend is the core of the logic and
         data of this application, the database I
-        chose for Skinet is postgres, which is my
-        preferred SQL DB. To manage the DB the
-        .NET framework provides Entity Framework
-        which I consider one of the best ORM
+        chose for Skinet is an instance of postgres, which is my
+        preferred SQL DB. To manage the DB I used an ORM, Entity Framework
+        which I consider one of the best
         available.
       </p>
       <p>
@@ -61,9 +60,9 @@ export default function Skinet() {
         can be treated like a generic, which means
         that every CRUD operation works the same.
         This way I am able to add and modify new
-        eentities without worrying about the
+        entities without worrying about the
         underlyign CRUD logic. The biggest
-        advantege of this pattern is the ability
+        advantage of this pattern is the ability
         to test each component by its own without
         unexpected side effects, this is crucial
         for unit testing (WIP) as test involving
@@ -74,17 +73,16 @@ export default function Skinet() {
       <p>
         Persistent entities are stored in a
         postgresql DB, this is good but for some
-        entities it is not ideal. We want
-        non-authenticated users should be able to
+        entities it is not ideal solution.
+        Non-authenticated users should be able to
         browse a few items and save them in the
         basket for later user, this is great for
         the user experience but can be quite a
         waste of memory as this could lead to
-        thousands of unauthenticated users having
-        a basket. For this an instance of a Redis
+        thousands of unauthenticated users clogging our long term storage. For this an instance of a Redis
         DB is required, Redis unlike postgres
-        stores information in memory making it
-        very responsive.
+        stores information in the RAM making it
+        very responsive and able to handle thousands of daily users with ease.
       </p>
       <h2 className="font-medium leading-tight text-3xl my-4">
         Frontend
@@ -94,12 +92,15 @@ export default function Skinet() {
         using Angular 12 which is a solid
         framework for really large projects,
         altough it is not my preferred choice over
-        React. For a much better developer
+        React, it is a stable and efficent framework for production. For a much better developer
         experience I use Typescript instead of
         Javascript in all of my projects. For a
         modern look I chose to use Bootstrap 5, a
-        classic choice.
+        classic choice for Angular.
       </p>
+      <p>A cool thing about separating the backend from the frontend is that technically my 
+        backends and frontends of my two skinet versions are interchangable, 
+        for example I could run the .NET backend with the Remix version of the frontend. Using docker this is trivial</p>
       <img
         src="/tech-stack.png"
         className="w-[40rem] h-[30rem] self-center"
@@ -108,7 +109,7 @@ export default function Skinet() {
         The shop page is the core of the website,
         it is the main way products are displayed
         to the end users. The page and the API
-        support pagination, which mean only a few
+        support pagination, which means only a few
         products at a time need to be loaded,
         therefore making queries to hundred of
         products a lot faster, users can switch
@@ -117,12 +118,7 @@ export default function Skinet() {
         name and the categories, they can also
         sort them. All of these buttons modify the
         REST API query that is sent to the
-        Backend. One of the main pillars of this
-        entire project is the ability to swap
-        frontends and backends around, for example
-        this Angular frontend is 100% compatible
-        with any other Skinet backend made in Rust
-        or with Node.
+        Backend.
       </p>
       <p>
         Users can browse items and click on each
@@ -136,17 +132,23 @@ export default function Skinet() {
         redirected to a reserved page and will
         have to authenticate. Authentication is
         done using JsonWebTokens which are a fast
-        jet secure alternative to sessions.
+        and secure alternative to sessions.
       </p>
       <p>
         Payments are managed using Stripe's API.
+        With Stripe we are sure that we comply with 
+        EU online payments laws.
         To test a payment in the demo app you can
         use the 4242 4242 4242 4242 card number
-        alongside any expiration and CVC.
+        alongside any expiration and CVC. 
+        Afterwards the order is saved and can be checked in the user "orders" tab
       </p>
       <h2 className="font-medium leading-tight text-3xl my-4">
         Deployment
       </h2>
+      <p>Once the project is ready I containerise the backend and the frontend 
+        into two separate Docker containers. Afterwards they are deployed on my 
+        digitalocean droplet using a Docker Compose file where the DBs are added.</p>
       <p>
         To learn more about my production
         infrastructure check out my{" "}
