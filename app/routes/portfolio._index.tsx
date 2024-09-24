@@ -4,13 +4,13 @@ export default function PortfolioComponent() {
       <CardComponent
         title="Skinet Sharp"
         link="/portfolio/skinet-sharp"
-        introduction="Esse velit nulla elit tempor quis laborum dolor Lorem non. Adipisicing excepteur laborum pariatur elit proident fugiat adipisicing adipisicing reprehenderit. Consectetur minim velit reprehenderit adipisicing. Tempor consectetur irure nulla duis. Anim labore ullamco laboris nisi do ullamco enim commodo velit. Adipisicing non excepteur veniam laborum. Enim do Lorem quis excepteur."
+        introduction="The oldest version of Skinet, this website was made with Angular 12 as a fronted and ASP.NET C# as a backend. To manage storage a postgresql db is managed using EF Core for storing persisting data. On top of this a Redis db is used for caching and for short term storage."
         tags="C#, .NET, Angular, Postgres"
       />
       <CardComponent
         title="Skinet Rusty"
         link="#"
-        introduction="Id ullamco officia qui do est non non enim voluptate sit ex amet adipisicing magna. Quis cupidatat irure in culpa ex ullamco ut pariatur do commodo adipisicing do. Consequat ut tempor laboris magna commodo."
+        introduction="A new version of Skinet where I experiment with more niche techonologies. This website was made using rust and actix-web as the backend. Remix as the frontend and as usual the databases are an instance of postgresql and Redis db for caching and short term storage."
         tags="Rust, React, Remix, Postgres"
       />
       <CardComponent

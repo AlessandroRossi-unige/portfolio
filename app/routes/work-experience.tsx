@@ -13,18 +13,18 @@ export default function WorkComponent() {
           Deloitte and after finishing my
           university studies I decided to swap my
           focus away from Salesforce. In my last
-          year of University I got intersted in
+          year of University I got interested in
           the <strong> C# </strong> and the{" "}
           <strong>.NET</strong> world.
         </p>
         <p>
-          In this project we worked directly with
-          ALD a car rental company. Me and my team
-          were in charge of{" "}
+          In this project we are working directly with
+          ALD, a car rental company. Me and the rest of our team
+          are in charge of{" "}
           <strong>mantaining</strong> the{" "}
           <strong>ALD API</strong>'s and services.
-          To do this we mantained old API's made
-          in BizTalk and worked on making the new
+          We mantai old API's made
+          in BizTalk and work on making the new
           generation of API's using{" "}
           <strong>ASP.NET</strong> for{" "}
           <strong>.Net Core 3.1</strong>.
@@ -35,8 +35,15 @@ export default function WorkComponent() {
           <strong>Sql</strong> instances.
         </p>
         <p>
-          For more information on my work at
-          Interlogica please contact me.
+          We follow the classic Agile work pipeline, where {" "}<strong>Jira</strong> {" "}
+          tickets are sent by our client and estimated, they are then 
+          organised thought the sprint so we can work on resolving bugs, 
+          implementing features and improving our existing codebase.
+        </p>
+        <p>
+          In 2024 our client ALD updated their internal secutiry policy 
+          and told us to create a new Azure Api Manager to manager to 
+          connect to the outside world securely.
         </p>
         <h1 className="text-center  text-4xl pb-6">
           Deloitte

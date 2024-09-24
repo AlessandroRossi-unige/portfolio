@@ -147,14 +147,14 @@ export default function Skinet() {
         Deployment
       </h2>
       <p>Once the project is ready I containerise the backend and the frontend 
-        into two separate Docker containers. Afterwards they are deployed on my 
-        digitalocean droplet using a Docker Compose file where the DBs are added.</p>
+        into two separate Docker containers. Afterwards they are deployed to my 
+        digitalocean droplet using a Docker Compose alongside the supporting DBs.</p>
       <p>
         To learn more about my production
         infrastructure check out my{" "}
         <a
           className="text-blue-150 hover:text-blue-500 hover:underline"
-          href="#"
+          href="/portfolio/infrastructure"
         >
           Infrastructure
         </a>{" "}

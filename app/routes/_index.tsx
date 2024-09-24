@@ -175,7 +175,7 @@ export default function Index() {
             />
             <CardComponent
               title="Skinet Rusty"
-              body="A new version of Skiner where I experiment with more niche techonologies. This website was made using rust and actix-web as the backend. Remix as the frontend and as usual the databases are an instance of postgresql and Redis db for caching and short term storage."
+              body="A new version of Skinet where I experiment with more niche techonologies. This website was made using rust and actix-web as the backend. Remix as the frontend and as usual the databases are an instance of postgresql and Redis db for caching and short term storage."
               link="#"
               demo="#"
             />
