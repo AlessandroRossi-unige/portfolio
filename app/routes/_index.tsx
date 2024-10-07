@@ -1,7 +1,4 @@
-import {
-  ArrowComponent,
-  CardComponent,
-} from "../components/home-components";
+import { ArrowComponent, CardComponent } from "../components/home-components";
 
 export default function Index() {
   return (
@@ -18,54 +15,32 @@ export default function Index() {
                 src="/avatar-placeholder.png"
                 className="w-60 h-60 rounded-full mx-28"
               ></img>
-              <h1 className="font-bold">
-                Alessandro Rossi
-              </h1>
+              <h1 className="font-bold">Alessandro Rossi</h1>
               <h1>
-                <span id="scroller"></span>{" "}
-                developer
+                <span id="scroller"></span> developer
               </h1>
             </div>
             <div className="flex flex-col justify-center items-center space-y-7 px-40">
-              <h1 className="text-4xl mb-2">
-                About me...
-              </h1>
+              <h1 className="text-4xl mb-2">About me...</h1>
               <p>
-                I am a <strong>fullstack</strong>{" "}
-                developer with expertise in{" "}
-                <strong>Angular</strong> and{" "}
-                <strong>React</strong> as frontend
-                frameworks and{" "}
-                <strong>Rust</strong> and{" "}
-                <strong>C#</strong> as backend
-                languages. As of the past year I
-                have also delved deep into{" "}
-                <strong>devops</strong> for both
-                my work at Interlogica and for
-                personal projects. Including this
-                very website which is self hosted!
+                I am a <strong>fullstack</strong> developer with expertise in{" "}
+                <strong>Angular</strong> and <strong>React</strong> as frontend
+                frameworks and <strong>Rust</strong> and <strong>C#</strong> as
+                backend languages. As of the past year I have also delved deep
+                into <strong>devops</strong> for both my work at Interlogica and
+                for personal projects. Including this very website which is self
+                hosted!
               </p>
               <p>
-                With the ideal of always
-                delivering{" "}
-                <strong>quality</strong> code, I
-                have a passion for always learning{" "}
-                <strong>new</strong> technologies
-                and staying up-to-date with the
-                latest industry trends. I have a
-                strong foundation in web
-                development and enjoy utilizing my
-                knowledge to{" "}
-                <strong>
-                  solve complex problems
-                </strong>{" "}
-                and create{" "}
-                <strong>user-friendly</strong>{" "}
-                experiences. Whether working on a
-                new project or contributing to an
-                existing one, I strive for{" "}
-                <strong>excellence</strong> and
-                take pride in my work.
+                With the ideal of always delivering <strong>quality</strong>{" "}
+                code, I have a passion for always learning <strong>new</strong>{" "}
+                technologies and staying up-to-date with the latest industry
+                trends. I have a strong foundation in web development and enjoy
+                utilizing my knowledge to{" "}
+                <strong>solve complex problems</strong> and create{" "}
+                <strong>user-friendly</strong> experiences. Whether working on a
+                new project or contributing to an existing one, I strive for{" "}
+                <strong>excellence</strong> and take pride in my work.
               </p>
             </div>
           </div>
@@ -79,79 +54,48 @@ export default function Index() {
         >
           <div></div>
           <div className="section1 flex flex-col justify-center items-center space-y-7 px-40">
-            <h1 className="text-4xl mb-6 font-bold">
-              SKINET
-            </h1>
+            <h1 className="text-4xl mb-6 font-bold">SKINET</h1>
             <div className="flex gap-3 px-48">
               <div className="flex flex-col gap-2 p-4">
                 <p>
-                  The Skinet project is a mega
-                  project involving a fake{" "}
-                  <strong>ecommerce</strong>{" "}
-                  website for winter sports
-                  supplies, the website is
-                  replicated in three sister
-                  projects, each one is the{" "}
-                  <strong>
-                    fullstack website
-                  </strong>{" "}
-                  made with a{" "}
-                  <strong>
-                    different tech stack
-                  </strong>
-                  . All the projects are made with
-                  the same core principals in
-                  mind: <strong>speed</strong>,{" "}
-                  <strong>scalability</strong> and
-                  good programming practices.
+                  The Skinet project is a mega project involving a fake{" "}
+                  <strong>ecommerce</strong> website for winter sports supplies,
+                  the website is replicated in three sister projects, each one
+                  is the <strong>fullstack website</strong> made with a{" "}
+                  <strong>different tech stack</strong>. All the projects are
+                  made with the same core principals in mind:{" "}
+                  <strong>speed</strong>, <strong>scalability</strong> and good
+                  programming practices.
                 </p>
                 <p>Each project consistes of:</p>
                 <ul className="list-disc">
                   <li>
-                    A <strong>REST API</strong>{" "}
-                    that handles the business
-                    logic
+                    A <strong>REST API</strong> that handles the business logic
                   </li>
                   <li>
                     Two databases, one to handle{" "}
-                    <strong>
-                      persistent data{" "}
-                    </strong>
-                    and one to handle{" "}
-                    <strong>caching</strong> in
-                    memory.
+                    <strong>persistent data </strong>
+                    and one to handle <strong>caching</strong> in memory.
                   </li>
                   <li>
-                    A frontend for the application
-                    that is managed by{" "}
-                    <strong>SSR</strong> or a{" "}
-                    <strong>SPA</strong> to ensure
-                    a fast and{" "}
-                    <strong>responsive</strong>{" "}
-                    experience, both on pc and on
-                    mobile.
+                    A frontend for the application that is managed by{" "}
+                    <strong>SSR</strong> or a <strong>SPA</strong> to ensure a
+                    fast and <strong>responsive</strong> experience, both on pc
+                    and on mobile.
                   </li>
                   <li>
-                    All of the projects are{" "}
-                    <strong>
-                      production ready
-                    </strong>{" "}
-                    and they support user accounts
-                    with secure authentication and
-                    payments using{" "}
-                    <strong>stripe</strong>.
+                    All of the projects are <strong>production ready</strong>{" "}
+                    and they support user accounts with secure authentication
+                    and payments using <strong>stripe</strong>.
                   </li>
                 </ul>
                 <p>
-                  But enough talking, let's look
-                  at the <strong>examples</strong>
+                  But enough talking, let's look at the{" "}
+                  <strong>examples</strong>
                   ...
                 </p>
               </div>
-              <img
-                src="/skinet.png"
-                className="w-[40rem] h-[30rem]"
-              ></img>
+              <img src="/skinet.png" className="w-[40rem] h-[30rem]"></img>
             </div>
           </div>
           <ArrowComponent />
@@ -198,19 +142,14 @@ export default function Index() {
           <h1 className="text-4xl mb-6 font-bold">
             Not just coding, also devops!
           </h1>
-          <div className="flex gap-3 px-48">
-            <div className="flex flex-col gap-2 p-4">
+          <div className="flex  gap-3 px-48">
+            <div className="flex flex-col  justify-center  gap-2 p-4">
               <p>
-                As an excercise and for a good bit
-                of fun I decided to host all of
-                this website and my various
-                projects inside of a digitalocean
-                droplet. All of my projects are
-                containerised in dockerS and deployed to a
-                 remote linux vm
-                where I host them. There is a lots
-                more nuance so if you want to know
-                more here are the details{" "}
+                As an excercise and for a good bit of fun I decided to host all
+                of this website and my various projects inside of a digitalocean
+                droplet. All of my projects are containerised in dockerS and
+                deployed to a remote linux vm where I host them. There is a lots
+                more nuance so if you want to know more here are the details{" "}
                 <a
                   className="text-red-150 font-bold hover:text-blue-500 hover:underline"
                   href="/portfolio/infrastructure"
@@ -231,16 +170,12 @@ export default function Index() {
           className="flex flex-col justify-center items-center h-screen px-40 gap-6"
           id="third"
         >
-          <h1 className="text-4xl mb-6 font-bold">
-            Do you like this site?
-          </h1>
+          <h1 className="text-4xl mb-6 font-bold">Do you like this site?</h1>
           <div className="flex gap-3 px-48">
-            <div className="flex flex-col gap-2 p-4">
+            <div className="flex flex-col justify-center  gap-2 p-4">
               <p>
-                This website like all of my
-                projects is completely open source
-                and uploaded on my github page,
-                you can find the complete source
+                This website like all of my projects is completely open source
+                and uploaded on my github page, you can find the complete source
                 code{" "}
                 <a
                   className="text-red-150 font-bold hover:text-blue-500 hover:underline"
@@ -250,10 +185,7 @@ export default function Index() {
                 </a>{" "}
               </p>
             </div>
-            <img
-              src="/portfolio.png"
-              className="w-[50rem] h-[30rem]"
-            ></img>
+            <img src="/portfolio.png" className="w-[50rem] h-[30rem]"></img>
           </div>
         </div>
       </section>
@@ -268,19 +200,19 @@ export default function Index() {
           <div className="flex flex-col gap-3 px-48">
             <div className="flex flex-col gap-2 p-4">
               <p>
-                From websites to games and even an app, you can find all my projects throught the years
-                
+                From websites to games and even an app, you can find all my
+                projects throught the years
               </p>
               <a
-                  className="text-red-150 font-bold hover:text-blue-500 hover:underline"
-                  href="https://github.com/alesrossi"
-                >
-                  HERE
-                </a>{" "}
+                className="text-red-150 font-bold hover:text-blue-500 hover:underline"
+                href="https://github.com/alesrossi"
+              >
+                HERE
+              </a>{" "}
             </div>
-            <a
-              href="https://github.com/alesrossi"
-            ><img src="/github.png" className="w-[60rem] h-[30rem]"></img></a>
+            <a href="https://github.com/alesrossi">
+              <img src="/github.png" className="w-[60rem] h-[30rem]"></img>
+            </a>
           </div>
         </div>
       </section>
