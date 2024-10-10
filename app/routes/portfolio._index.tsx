@@ -30,13 +30,13 @@ export default function PortfolioComponent() {
         />
         <CardComponent
           title="Unreal Engine 4"
-          link="#"
+          link="/portfolio/unreal"
           introduction="Stealth project is a simple stealth and survival game made in Unreal Engine in c++, the main objective of the game is for the player to hide from enemies and find the end crystal, randomly generated in the map."
           tags="UE4, C++, UE4 Blueprints"
         />
         <CardComponent
           title="Portfolio"
-          link="/portfolio/infrastructure"
+          link="https://github.com/alesrossi/portfolio"
           introduction="This website you are looking at, where I share all the details of my career and showcase my skills. The site is made with Remix and Tailwind."
           tags="Remix, React, Tailwind"
         />

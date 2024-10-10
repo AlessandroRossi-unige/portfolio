@@ -13,20 +13,15 @@ export default function InfrastructureComponent() {
       </h2>
 
       <p>
-        When I work on my personal projects I like
-        to use Linux, this is not
-        only better (in my opinion) but also
-        convenient as I am able to replicate the
-        same environment as my remote host. While
-        eventually I plan to setup my own physical
-        server, for the moment I deploy all my
-        stuff inside of a Digital ocean container. I
-        use this container as a remote server
-        where each project is assigned its own
-        port and subdomain. Each project is run
-        inside a docker container or a docker compose subnet.
+        When I work on my personal projects I like to use Linux, this is not
+        only better (in my opinion) but also convenient as I am able to
+        replicate the same environment as my remote host. While eventually I
+        plan to setup my own physical server, for the moment I deploy all my
+        stuff inside of a Digital ocean container. I use this container as a
+        remote server where each project is assigned its own port and subdomain.
+        Each project is run inside a docker container or a docker compose
+        subnet.
       </p>
-      
     </div>
   );
 }
