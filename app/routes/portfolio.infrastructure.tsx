@@ -20,7 +20,8 @@ export default function InfrastructureComponent() {
         stuff inside of a Digital ocean container. I use this container as a
         remote server where each project is assigned its own port and subdomain.
         Each project is run inside a docker container or a docker compose
-        subnet.
+        subnet. Then using an apache reverse proxy each container is connected
+        to a subdomain where they can be accessed from the outside.
       </p>
     </div>
   );

@@ -25,7 +25,7 @@ export default function PortfolioComponent() {
         <CardComponent
           title="Infrastructure"
           link="/portfolio/infrastructure"
-          introduction="All of my projects including this very wbsite are hosted in a remote linux machine. To easily mantain and upgrade them, all of my projects are conteinarised into docker containers and composed when necessary. I aim to eventually automize this process "
+          introduction="All of my projects including this very website are hosted in a remote linux machine. To easily mantain and upgrade them, all of my projects are conteinarised into docker containers and composed when necessary. I aim to eventually automize this process "
           tags="Docker, Docker Compose, Linux"
         />
         <CardComponent

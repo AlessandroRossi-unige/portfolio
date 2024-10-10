@@ -9,57 +9,31 @@ export default function PortfolioComponent() {
           (9/2018 - 09/2022)
         </h2>
         <p>
-          I pursued my studies starting in 2018,
-          where I was introduced to computer
-          programming languages <strong>C</strong>{" "}
-          and <strong>C++</strong>. During this
-          time, I applied my knowledge to
-          implement common{" "}
-          <strong>algorithms</strong> and{" "}
-          <strong>data structures</strong> and
-          optimize them. I also received an
-          introduction to the{" "}
-          <strong>Linux</strong> environment and
-          linear algebra.
+          I began my studies in 2018, where I was introduced to the foundational
+          programming languages C and C++. During this time, I applied my
+          knowledge to implement and optimize common algorithms and data
+          structures. I also gained a solid grounding in the Linux environment
+          and explored concepts of linear algebra.
         </p>
         <p>
-          In the following year, I shifted my
-          focus to <strong>Java</strong>, where I
-          learned advanced concepts of{" "}
-          <strong>object-oriented</strong>{" "}
-          programming such as inheritance and
-          polymorphism. Additionally, I studied
-          randomised algorithms and honed my{" "}
-          <strong>SQL</strong> skills, including
-          query writing, function creation, and
-          trigger design. In my final year, I
-          expanded my programming knowledge to
-          include <strong>C#</strong>,{" "}
-          <strong>Python</strong>, and
-          <strong>Android</strong>. I gained
-          hands-on experience with the .NET
-          framework and{" "}
-          <strong>entity framework</strong> in C#.
-          Additionally, I received an introduction
-          to <strong>web development</strong>{" "}
-          technologies such as{" "}
-          <strong>PHP</strong>,{" "}
-          <strong>JavaScript</strong>,
-          <strong>HTML</strong>, and{" "}
-          <strong>CSS</strong>.
+          The following year, I shifted my focus to Java, delving into advanced
+          object-oriented programming concepts like inheritance and
+          polymorphism. I also studied randomized algorithms and multithreaded
+          applications and refined my SQL skills, developing expertise in query
+          writing, function creation, and trigger design. In my final year, I
+          expanded my programming skills by learning C#, Python, and Android
+          development. I gained practical experience with the .NET framework and
+          Entity Framework in C#. Additionally, I was introduced to web
+          development with technologies like PHP, JavaScript, HTML, and CSS.
         </p>
         <p>
-          To prepare for the industry, I received
-          training in software engineering,
-          covering topics such as iterative and
-          <strong>agile</strong> programming,{" "}
-          <strong>design patterns</strong>,{" "}
-          <strong>data models</strong>,{" "}
-          <strong>refactorings</strong>,{" "}
-          <strong>unit testing</strong>, and more.
-          I successfully graduated in 2022 after
-          completing a thesis in the area of{" "}
-          <strong>software testing</strong>.
+          To prepare for a career in the industry, I received training in
+          software engineering, covering key topics like iterative and agile
+          programming methodologies, design patterns, data modeling,
+          refactoring, and unit testing. I successfully graduated in 2022 after
+          completing a thesis in software testing, which lead me to a
+          comprehensive understanding of testing strategies and methodologies
+          from a theoretical and pratical standpoint.
         </p>
       </div>
     </div>

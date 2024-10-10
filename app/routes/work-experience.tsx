@@ -7,31 +7,30 @@ export default function WorkComponent() {
           (03/2022 - Present)
         </h2>
         <p>
-          After working for a few months at Deloitte and after finishing my
-          university studies I decided to swap my focus away from Salesforce. In
-          my last year of University I got interested in the{" "}
-          <strong> C# </strong> and the <strong>.NET</strong> world.
+          After spending a few months at Deloitte and completing my university
+          studies, I decided to shift my focus away from Salesforce development.
+          During my final year of university, I became increasingly interested
+          in the C# and .NET ecosystems.
         </p>
         <p>
-          In this project we are working directly with ALD, a car rental
-          company. Me and the rest of our team are in charge of{" "}
-          <strong>mantaining</strong> the <strong>ALD API</strong>'s and
-          services. We mantai old API's made in BizTalk and work on making the
-          new generation of API's using <strong>ASP.NET</strong> for{" "}
-          <strong>.Net Core 3.1</strong>. Alongside the business logic we also
-          worked on mantaining the multiple Databases of our client, these were{" "}
-          <strong>Oracle</strong> and <strong>Sql</strong> instances.
+          In my current role, I am working directly with ALD, now Ayvens, a
+          prominent car rental company. My team and I are responsible for
+          maintaining the Ayvens API and its associated services. We manage
+          legacy APIs built using BizTalk while also developing the next
+          generation of APIs with ASP.NET for .NET Core 3.1. Alongside
+          implementing business logic, we also oversee the maintenance of
+          multiple databases for our client, specifically Oracle and SQL
+          instances.
         </p>
         <p>
-          We follow the classic Agile work pipeline, where <strong>Jira</strong>{" "}
-          tickets are sent by our client and estimated, they are then organised
-          thought the sprint so we can work on resolving bugs, implementing
-          features and improving our existing codebase.
-        </p>
-        <p>
-          In 2024 our client ALD updated their internal secutiry policy and told
-          us to create a new Azure Api Manager to manager to connect to the
-          outside world securely.
+          We adhere to a classic Agile workflow, where Jira tickets are
+          submitted by our client, estimated, and organized throughout the
+          sprint. This approach allows us to efficiently resolve bugs, implement
+          new features, and enhance our existing codebase. In 2024, Ayvens
+          updated their internal security policy and tasked us with creating a
+          new Azure API Manager. This will facilitate secure connections to the
+          outside world, ensuring that our services comply with the latest
+          security standards.
         </p>
         <img src="/work.png" className="w-[40rem] h-[20rem] self-center"></img>
         <h1 className="text-center  text-4xl pb-6">Deloitte</h1>
@@ -39,33 +38,31 @@ export default function WorkComponent() {
           (07/2021 - 03/2022)
         </h2>
         <p>
-          I started my programmer journey as a{" "}
-          <strong>fullstack Salesforce </strong> Developer working for Deloitte
-          Italia.
+          I began my programming journey as a fullstack Salesforce Developer at
+          Deloitte Italia. My initial role involved working on the TIM Sparkle
+          Project, while simultaneously studying for my Salesforce
+          certifications. I primarily focused on backend development, utilizing
+          Apex (a Java-like language) to implement new features, manage database
+          interactions, communicate with clients, and test new functionalities.
+          I also gained hands-on experience with the Salesforce frontend
+          framework (a React-like framework), contributing to the UI aspects of
+          the project.
         </p>
         <p>
-          At Deloitte I started working on the TIM Sparkle Project while also
-          learning and preparing for my Salesforce certifications. I mostly
-          worked on the <strong>backend</strong> features of the project, using{" "}
-          <strong>Apex</strong> (a javalike language), I implement new features,
-          worked with the database, talked with the customers and{" "}
-          <strong>tested</strong> the <strong>new features</strong> to be
-          implemented. I also did <strong>frontend</strong> work on the
-          salesforce frontend framework.
+          In this project, I collaborated with a medium-sized team of around 25
+          members, working in both Waterfall and Agile development environments.
+          Together with a colleague, I developed the administrative section of
+          the customer portal, which allowed admins to create, edit, and manage
+          users and their permissions. To facilitate permission management, we
+          integrated with an external API service called C-IAM.
         </p>
         <p>
-          In this project I worked with a medium size team (around 25 people)
-          where I experienced both <strong>Waterfall</strong> development and{" "}
-          <strong>Agile</strong> development. Me and a collegue created the
-          administrative section of our customer portal, where the admins
-          create, edit and manage new users and their permission, to set these
-          permission we connected to an <strong>external API</strong> service
-          called C-IAM. While in Deloitte I worked on my University{" "}
-          <strong>Thesis</strong>, my thesis was based around studying every
-          form of <strong>Software Testing</strong> and seeing what we could
-          apply to our Salesforce project. We ended up improving our{" "}
-          <strong>unit tests</strong> and I implemented the first{" "}
-          <strong>performance tests</strong> of our project.
+          While at Deloitte, I also worked on my university thesis, which
+          involved a comprehensive study of various software testing
+          methodologies to determine their applicability to our Salesforce
+          project. This led to improvements in our unit testing approach, and I
+          implemented the first performance tests for the project, enhancing its
+          overall reliability and performance.
         </p>
         <p>For more information on my work at Deloitte please contact me.</p>
       </div>

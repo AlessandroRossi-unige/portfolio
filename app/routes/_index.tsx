@@ -23,24 +23,30 @@ export default function Index() {
             <div className="flex flex-col justify-center items-center space-y-7 px-40">
               <h1 className="text-4xl mb-2">About me...</h1>
               <p>
-                I am a <strong>fullstack</strong> developer with expertise in{" "}
+                I am a <strong>fullstack</strong> developer with a strong
+                background in <strong>Rust</strong> and <strong>C# </strong> for
+                backend solutions, as well as a strong background in{" "}
                 <strong>Angular</strong> and <strong>React</strong> as frontend
-                frameworks and <strong>Rust</strong> and <strong>C#</strong> as
-                backend languages. As of the past year I have also delved deep
-                into <strong>devops</strong> for both my work at Interlogica and
-                for personal projects. Including this very website which is self
-                hosted!
+                frameworks. In addition to building robust web applications, I
+                specialize in creating efficient APIs that enable communication
+                between the DBs and the application layers. Over the past year,
+                I have also ventured into DevOps, applying my knowledge both at
+                Interlogica and in personal projects—including this very
+                website, which I host myself!
               </p>
               <p>
-                With the ideal of always delivering <strong>quality</strong>{" "}
-                code, I have a passion for always learning <strong>new</strong>{" "}
-                technologies and staying up-to-date with the latest industry
-                trends. I have a strong foundation in web development and enjoy
-                utilizing my knowledge to{" "}
-                <strong>solve complex problems</strong> and create{" "}
-                <strong>user-friendly</strong> experiences. Whether working on a
-                new project or contributing to an existing one, I strive for{" "}
-                <strong>excellence</strong> and take pride in my work.
+                My approach to development is grounded in the pursuit of
+                delivering high-quality code. I tackle tasks ranging from
+                solving tickets and addressing issues to continuously improving
+                existing codebases and the surrounding infrastructure. I am
+                passionate about learning new technologies and staying on top of
+                the latest industry trends, which helps me refine my work and
+                adapt to new challenges. With a strong foundation in web
+                development, I enjoy leveraging my skills to solve complex
+                problems and create user-friendly experiences. Whether I am
+                building something new, maintaining an existing project, or
+                optimizing processes, I strive for excellence and take pride in
+                every aspect of my work.
               </p>
             </div>
           </div>
@@ -58,41 +64,41 @@ export default function Index() {
             <div className="flex gap-3 px-48">
               <div className="flex flex-col gap-2 p-4">
                 <p>
-                  The Skinet project is a mega project involving a fake{" "}
-                  <strong>ecommerce</strong> website for winter sports supplies,
-                  the website is replicated in three sister projects, each one
-                  is the <strong>fullstack website</strong> made with a{" "}
-                  <strong>different tech stack</strong>. All the projects are
-                  made with the same core principals in mind:{" "}
-                  <strong>speed</strong>, <strong>scalability</strong> and good
+                  The Skinet project is a large-scale endeavor featuring a mock
+                  ecommerce website for winter sports gear. This website is
+                  replicated across three sister projects, each developed with a
+                  distinct tech stack to showcase versatility. Despite the
+                  different stacks, all versions of the project adhere to the
+                  same core principles: speed, scalability, and solid
                   programming practices.
                 </p>
-                <p>Each project consistes of:</p>
+                <p>Each project consists of the following components:</p>
                 <ul className="list-disc">
                   <li>
-                    A <strong>REST API</strong> that handles the business logic
+                    A <strong>REST API</strong> that efficiently handles
+                    business logic and core operations.
                   </li>
                   <li>
-                    Two databases, one to handle{" "}
-                    <strong>persistent data </strong>
-                    and one to handle <strong>caching</strong> in memory.
+                    Two databases—one for persistent data storage and another
+                    for in-memory caching to boost performance.
                   </li>
                   <li>
-                    A frontend for the application that is managed by{" "}
-                    <strong>SSR</strong> or a <strong>SPA</strong> to ensure a
-                    fast and <strong>responsive</strong> experience, both on pc
-                    and on mobile.
+                    A frontend application designed for a seamless user
+                    experience, either through Server-Side Rendering{" "}
+                    <strong>SSR</strong> or as a Single Page Application{" "}
+                    <strong>SPA</strong>, ensuring a fast and responsive
+                    interface on both desktop and mobile devices.
                   </li>
                   <li>
-                    All of the projects are <strong>production ready</strong>{" "}
-                    and they support user accounts with secure authentication
-                    and payments using <strong>stripe</strong>.
+                    All projects are production-ready, equipped with secure user
+                    authentication and payment processing through{" "}
+                    <strong>Stripe</strong>, making them fully functional for a
+                    real-world environment.
                   </li>
                 </ul>
                 <p>
-                  But enough talking, let's look at the{" "}
-                  <strong>examples</strong>
-                  ...
+                  But enough talk—let’s dive into the examples and see it in
+                  action! ...
                 </p>
               </div>
               <img src="/skinet.png" className="w-[40rem] h-[30rem]"></img>
@@ -113,13 +119,13 @@ export default function Index() {
           >
             <CardComponent
               title="Skinet Sharp"
-              body="The oldest version of Skinet, this website was made with Angular 12 as a fronted and ASP.NET C# as a backend. To manage storage a postgresql db is managed using EF Core for storing persisting data. On top of this a Redis db is used for caching and for short term storage."
+              body="The original version of Skinet was built using Angular 12 for the frontend and ASP.NET with C# on the backend. For data storage, this version utilizes a PostgreSQL database, managed through Entity Framework Core to handle persistent data efficiently. Complementing this, a Redis database is employed to manage caching and short-term storage, enhancing the website's speed and performance."
               link="portfolio/skinet-sharp"
               demo="https://skinet-sharp.alessandrorossi.tech/"
             />
             <CardComponent
               title="Skinet Rusty"
-              body="A new version of Skinet where I experiment with more niche techonologies. This website was made using rust and actix-web as the backend. Remix as the frontend and as usual the databases are an instance of postgresql and Redis db for caching and short term storage."
+              body="In this new version of Skinet, I explore some niche technologies to challenge myself. The backend is powered by Rust and Actix-web, offering high performance and reliability. On the frontend, Remix is used to deliver a modern user experience and a much better development environment. As with other versions, this setup features PostgreSQL and Redis. This combination of technologies creates a responsive and efficient application, perfect for handling complex workflows and high demand."
               link="#"
               demo="#"
             />
@@ -145,11 +151,15 @@ export default function Index() {
           <div className="flex  gap-3 px-48">
             <div className="flex flex-col  justify-center  gap-2 p-4">
               <p>
-                As an excercise and for a good bit of fun I decided to host all
-                of this website and my various projects inside of a digitalocean
-                droplet. All of my projects are containerised in dockerS and
-                deployed to a remote linux vm where I host them. There is a lots
-                more nuance so if you want to know more here are the details{" "}
+                As a fun exercise, I decided to host the entire website and all
+                my projects on a DigitalOcean droplet. Each project is
+                containerized in Docker and deployed to a remote Linux VM where
+                everything is smoothly deployed. This setup not only keeps
+                things organized but also allows for efficient resource
+                management and easy scaling. There’s plenty of nuance involved,
+                from configuring Docker containers to managing the server
+                environment, so if you’re interested in the technical details,
+                you can find them here.{" "}
                 <a
                   className="text-red-150 font-bold hover:text-blue-500 hover:underline"
                   href="/portfolio/infrastructure"
@@ -179,7 +189,7 @@ export default function Index() {
                 code{" "}
                 <a
                   className="text-red-150 font-bold hover:text-blue-500 hover:underline"
-                  href="/portfolio/infrastructure"
+                  href="https://github.com/alesrossi/portfolio"
                 >
                   here
                 </a>{" "}
