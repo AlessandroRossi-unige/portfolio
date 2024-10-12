@@ -12,7 +12,7 @@ export default function Index() {
           <div className="section1 flex items-center gap-24 px-60">
             <div className="flex flex-col justify-center items-center space-y-7">
               <img
-                src="/avatar-placeholder.png"
+                src="/photo.png"
                 className="w-60 h-60 rounded-full mx-28"
               ></img>
               <h1 className="font-bold">Alessandro Rossi</h1>

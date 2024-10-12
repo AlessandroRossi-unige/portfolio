@@ -80,10 +80,7 @@ export default function Skinet() {
         interchangable, for example I could run the .NET backend with the Remix
         version of the frontend. Using docker this is trivial.
       </p>
-      <img
-        src="/tech-stack.png"
-        className="w-[40rem] h-[30rem] self-center"
-      ></img>
+      <img src="/skinet.png" className="w-[40rem] h-[30rem] self-center"></img>
       <p>
         The shop page is the core feature of the website, serving as the primary
         interface for users to browse products. With built-in pagination, only a
