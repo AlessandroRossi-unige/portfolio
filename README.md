@@ -1,3 +1,7 @@
+# My portfolio
+
+This is my website where I host all of my projects and my CV: https://alessandrorossi.tech/
+
 # Welcome to Remix!
 
 - 📖 [Remix docs](https://remix.run/docs)
